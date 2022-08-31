@@ -1,0 +1,55 @@
+.flexbox__title {
+    margin: 30px 0;
+}
+
+
+.flexbox__item {
+    border: 2px solid blueviolet;
+    font-weight: 500;
+    font-size: 100px;
+    color: lightgray;
+    width: 100%;
+    min-height: 300px;
+    /*text-align: left;*/ /* работает только для inline and inline-flex*/
+    /*flex-basis: 245px;*/
+}
+
+.flexbox__set {
+    border: 3px solid darkgreen;
+    width: 100%;
+
+
+    /*align-content: space-around;!* только если включен wrap*!*/
+    /*justify-content: space-between;*/
+}
+
+
+.flexbox__set {
+    min-height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: flex-start;*/
+}
+
+.flexbox__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auto {
+    margin-bottom: auto;
+}
+
+/*.flexbox__grow {*/
+/*    flex-grow: 1;*/
+/*}*/
+
+/*.flexbox__shrink {*/
+/*    flex-shrink: 0;*/
+/*    flex: 1 0 220px;*/
+/*}*/
+
+/*.flexbox__self {*/
+/*    align-self: flex-end;*/
+/*}*/
