@@ -5,15 +5,16 @@
 .container {
     border: 3px solid darkgoldenrod;
     display: flex;
-    gap: 25px;
+    gap: 25px 50px;
     padding: 10px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .flexbox__card {
     border: 3px solid darkgreen;
     padding: 30px;
-
-    flex: 0 1 400px;
+    flex: 0 0 500px;
     min-height: 700px;
     display: flex;
     flex-wrap: wrap;
